@@ -11,11 +11,11 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: rubens-sertage/hello-barsoon@v1.1
+        uses: rubens-sertage/hello-barsoon@v1.1.1
         with:
           name: 'Brown'
 
       # Use the output from the `hello` step
       - name: Get the output
         run: echo "The time was ${{ steps.hello.outputs.greeting }}"
-        
+

@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: rubens-sertage/hello-barsoon@v1.1.3
+        uses: rubens-sertage/hello-barsoon@v1.1.4
         with:
           name: 'Brown'
 
